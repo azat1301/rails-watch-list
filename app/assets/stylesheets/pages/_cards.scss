@@ -90,9 +90,9 @@
   bottom: 0;
   width: 100%;
 }
+
 .card-trip {
   overflow: hidden;
-  width: 250px;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
@@ -100,7 +100,6 @@
 .card-trip > img {
   height: 200px;
   width: 100%;
-  display: flex;
   object-fit: cover;
 }
 
@@ -119,6 +118,9 @@
 
 .card-trip .card-trip-infos {
   padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   position: relative;
 }
 
