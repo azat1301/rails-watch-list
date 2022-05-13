@@ -2,7 +2,7 @@
   <h1>Add a list</h1>
   <%= simple_form_for @list do |f| %>
     <%= f.input :name %>
-    <%= f.input :photos, as: :file %>
+    <%= f.input :photo, as: :file %>
     <div class="d-flex justify-content-between">
       <%= f.submit class: 'btn btn-primary mt-2' %>
       <%= link_to "Back to list", lists_path, class: 'btn btn-secondary mt-3' %>
